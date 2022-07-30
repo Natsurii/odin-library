@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: #252627;
+    --white: #FFF9FB;
+    --red: #BB0A21;
+    --blue: #4B88A2;
+    --green: #35FF69;
+    --purple: #907AD6;
+    --violet: #6369D1;
+}
+
+html {
+    font-size: 61.5%;
+}
+
+body, button {
+    color: var(--white);
+    font-size: 2.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+    padding: 2rem;
+    background: transparent;
+    border-radius: 15px;
+}
+
+body {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 125px;
+    padding:  2vh 10vw;
+    background: var(--violet);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+header > h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.library {
+    display: grid;
+    gap: 16px;
+    padding: 2rem 10vw;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    background: var(--purple);
+    gap: 16px;
+    padding: 2rem;
+    min-height: 15rem;
+    border-radius: 15px;
+}
+
+
+footer {
+    position: fixed;
+    padding: 1rem;
+    bottom: 0;
+}
