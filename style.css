@@ -37,7 +37,7 @@ body {
 }
 
 header {
-    height: 125px;
+    height: 15rem;
     padding:  2vh 10vw;
     background: var(--violet);
     display: flex;
