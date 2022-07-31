@@ -66,6 +66,7 @@ header > h1 {
     padding: 2rem;
     min-height: 15rem;
     border-radius: 15px;
+    overflow-wrap: break-word;
 }
 
 .modal {
