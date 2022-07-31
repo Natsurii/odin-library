@@ -51,6 +51,9 @@ header > h1 {
     font-weight: bolder;
 }
 
+header > button:hover {
+    background-color: var(--black);
+}
 .library {
     display: grid;
     gap: 16px;
@@ -70,6 +73,9 @@ header > h1 {
     overflow-wrap: break-word;
 }
 
+.book > button:hover {
+    background-color: var(--red);
+}
 
 .modal {
     display: none;
