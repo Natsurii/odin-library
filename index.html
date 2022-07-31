@@ -9,11 +9,24 @@
     <title>Library System</title>
 </head>
 <body>
+    <div class="modal">
+        <div class="form">
+            <label for="book">Book Name</label>
+            <input required type="text" name="book" id="booktext" minlength="3">
+            <label for="author">Author</label>
+            <input required type="text" name="author" id="authortext" minlength="3">
+            <label for="pages">Pages</label>
+            <input required type="number" name="pages" id="pagestext">
+            <button id="addtocol">Add to collection</button>
+            <p class="alert" style="color: var(--red);"></p>
+        </div>
+    </div>
     <header>
         <h1>Library</h1>
         <button id="add-book">Add book</button>
     </header>
     <div class="library">
+    
     </div>
     <footer>
         <p id="bookscount"> Total books</p>
